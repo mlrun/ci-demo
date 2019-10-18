@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  build:
+    docker: python:3.6
+    steps:
+      - checkout
+      - run: pip install mlrun
+      - run: mlrun run --handler my_func myfunc.py
