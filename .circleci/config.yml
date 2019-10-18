@@ -1,7 +1,8 @@
 version: 2
 jobs:
   build:
-    docker: python:3.6
+    docker: 
+      - image: python:3.6
     steps:
       - checkout
       - run: pip install mlrun
