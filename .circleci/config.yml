@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run: pip install mlrun
-      - run: mlrun run --handler my_func myfunc.py
+      - run: mlrun run --handler my_func --param-file params.csv myfunc.py
