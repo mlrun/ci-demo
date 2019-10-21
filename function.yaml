@@ -1,0 +1,10 @@
+kind: local
+metadata:
+  name: test
+spec:
+  command: 'myfunc.py'
+  entry_points:
+    my_func: {}
+  build:
+    commands: ['pip install pandas']
+  description: 'a demo function'
