@@ -4,7 +4,7 @@
 
 ### Demo ml function CI/CD with MLRun and CircleCI
 
-in order to add automated CI to ML functions you need to register your repo in [CircleCI](https://circleci.com/) and add the following YAML file to the `.circleci/config.yml` path.
+in order to add automated CI to ML functions you need to register your repo in [CircleCI](https://circleci.com/) and add the following YAML file to the `.circleci/config.yml` path. 
 
 You can also add a badge to your project like the one above, check the source of this MD file to see how
 
