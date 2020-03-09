@@ -16,7 +16,7 @@ jobs:
       - image: python:3.6
     steps:
       - checkout
-      - run: pip install mlrun
+      - run: python -m pip install mlrun
       - run: mlrun run --handler my_func --param-file params.csv --dump myfunc.py
 ```
 
