@@ -6,5 +6,5 @@ spec:
   entry_points:
     my_func: {}
   build:
-    commands: ['pip install pandas']
+    commands: ['python -m pip install pandas']
   description: 'a demo function'
